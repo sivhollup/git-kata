@@ -37,4 +37,19 @@ public class FizzBuzzTest {
     public void sixReturnsFizz() {
         assertEquals("fizz", fizzBuzz.compute(6));
     }
+
+    @Test
+    public void fiveReturnsBuzz() {
+        assertEquals("buzz", fizzBuzz.compute(5));
+    }
+
+    @Test
+    public void tenReturnsBuzz() {
+        assertEquals("buzz", fizzBuzz.compute(10));
+    }
+
+    @Test
+    public void fifteenReturnsFizzBuzz() {
+        assertEquals("fizzbuzz", fizzBuzz.compute(15));
+    }
 }
