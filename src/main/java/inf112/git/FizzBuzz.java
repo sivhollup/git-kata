@@ -11,6 +11,6 @@ public class FizzBuzz {
         if (number != 0 && number % 5 == 0) {
             return "buzz";
         }
-        return Integer.toString(number);
+        return Integer.toString(number) + "";
     }
 }
