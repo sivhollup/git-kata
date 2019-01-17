@@ -4,13 +4,18 @@ public class FizzBuzz {
 
     public String compute(int number) {
 
+        String result = "";
+
         if (number != 0 && number % 3 == 0) {
-            return "fizz";
+            result += "fizz";
         }
 
         if (number != 0 && number % 5 == 0) {
-            return "buzz";
+            result += "buzz";
         }
-        return Integer.toString(number) + "";
+
+        if (result.isEmpty())
+            return Integer.toString(number) + "";
+        return result;
     }
 }
