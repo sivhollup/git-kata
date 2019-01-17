@@ -4,6 +4,6 @@ public class FizzBuzz {
 
     public String compute(int number) {
 
-        return "0";
+        return Integer.toString(number);
     }
 }

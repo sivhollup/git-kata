@@ -22,4 +22,9 @@ public class FizzBuzzTest {
         final String result = fizzBuzz.compute(0);
         assertEquals("0", result);
     }
+
+    @Test
+    public void testOneReturnsOne() {
+        assertEquals("1", fizzBuzz.compute(1));
+    }
 }
