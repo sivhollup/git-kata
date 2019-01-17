@@ -1,5 +1,7 @@
 # Demo of fizzbuzz kata
 
+Try it yourself!
+
 ### Rules
 
 - Given a number, return the number as a string unless one of the following occurs:
