@@ -19,7 +19,7 @@ public class FizzBuzzTest {
 
     @Test
     public void testLowerBoundRegularNumber() {
-        //TODO
-        fail("Not implemented yet");
+        final String result = fizzBuzz.compute(0);
+        assertEquals("0", result);
     }
 }
